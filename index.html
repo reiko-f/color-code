@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Color Code</title>
+</head>
+<body>
+  <div id="color-pick">
+    <h1>Color Picker</h1>
+    <input type="text" id="ask-number" value="" placeholder="Type a number between 0 and 255">
+    <button id="color-btn">Get Color</button>
+  </div>
+  
+  <div id="display-container">
+    <div id="color-name"></div>
+    <div id="color-number"></div>
+    <div id="color-container">
+      <div id="color-code"></div>
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
